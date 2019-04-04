@@ -2,7 +2,7 @@
 
 ![](https://raw.githubusercontent.com/agaldran/a_v_uncertain/master/utils/predictions_example.png?style=centerme)
 <p align="center">
-(a)-(e):  Retinal images extracted from different dataset: (a) RITE/DRIVE (b) INSPIRE (c) HRF (d) STARE (e) LES-AV . 
+(a)-(e):  Retinal images extracted from different datasets: (a) RITE/DRIVE (b) INSPIRE (c) HRF (d) STARE (e) LES-AV . 
 (f)-(j): Corresponding predictions.
 Note that, in contrast to most existing technques, this model was trained in RITE and never re-trained, see the paper 
 for details.
@@ -46,10 +46,10 @@ replaced by the location where you want your results stored.
 Note that this method provides pixel-wise predictions divided into four different classes: Background, Artery, Vein, and 
 Uncertain. 
 The results will come out color-coded:
-* Red: Probability of being an Artery pixel
-* Blue: Probability of being a Vein pixel
-* Green: Probability of being an Uncertain prediction
-* Background: 1-Artery-Vein-Uncertain
+* **Red**: Probability of being an Artery pixel
+* **Blue**: Probability of being a Vein pixel
+* **Green**: Probability of being an Uncertain prediction
+* **Background**: 1-Artery-Vein-Uncertain
 
 Running the above line will generate three subfolders of ``results/``: ``uncertainty``, ``uncertainty_vessels``, and 
 ``pretty_preds``. 
